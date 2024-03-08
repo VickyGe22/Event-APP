@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   title: "VIC APP",
   description: "Show your imagination",
   icons:{
-    icon: "/favicon.ico",  
+    icon: './assets/images/logo.svg',  //与网页图标有关
   },
 }
 
