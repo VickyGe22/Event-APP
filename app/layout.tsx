@@ -10,18 +10,18 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "VIC APP",
+  title: "VIC App",
   description: "Show your imagination",
   icons:{
-    icon: './assets/images/logo.svg',  //与网页图标有关
-  },
+    icon: '/assets/images/logo.svg',  //与网页图标有关
+  }
 }
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
     <html lang="en">
       <body className={poppins.variable}>{children}</body>
