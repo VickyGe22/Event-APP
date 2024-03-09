@@ -55,3 +55,9 @@ es7: RAFCE快捷键
 # css功能
 更新global css + tailwind.config
 更新APP/layout里字体 - poppins引入; metadata设置网页显示图标
+
+# 步骤
+1. header
+   - 
+用clerkAPI - 注册 - 创建application名字
+2. footer
